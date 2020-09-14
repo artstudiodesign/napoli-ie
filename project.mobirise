@@ -520,10 +520,10 @@
             },
             "@media (max-width: 767px)": {
               "& when not (@fullScreen)": {
-                "padding-top": "(@paddingTop * 0.5rem)",
-                "padding-bottom": "(@paddingBottom * 0.5rem)",
-                "padding-left": ".5rem",
-                "padding-right": ".5rem",
+                "padding-top": "(@paddingTop * 0rem)",
+                "padding-bottom": "(@paddingBottom * 0rem)",
+                "padding-left": "0rem",
+                "padding-right": "0rem",
                 ".carousel": {
                   "height": "600px! important",
                   "img": {
